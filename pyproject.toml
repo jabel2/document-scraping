@@ -1,0 +1,15 @@
+[project]
+name = "document-scraping"
+version = "0.1.0"
+description = "Local PDF extraction and OCR evaluation"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "docling",
+    "rapidocr",
+    "onnxruntime",
+    "paddlepaddle",
+    "psutil>=7.2.2",
+]
+
+[tool.uv]
+package = false
